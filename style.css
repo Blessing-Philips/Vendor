@@ -1,0 +1,17 @@
+#coke .item {
+    width: 120px;
+}
+
+#fanta .item {
+    width: 100px;
+}
+
+.container {
+    display: flex;
+    /*justify-content: space-evenly;*/
+}
+
+.item:hover {
+    background-color: blue;
+    cursor: pointer;
+}
